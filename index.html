@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELAN Restaurant</title>
+    <link rel="icon" href="Images/velan logo.png">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+
+</head>
+<body>
+    <!-----navbar start----->
+    <div class="nav-btn">
+        <label FOR="nav-check">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+            </svg>
+
+        </label>
+    </div>
+    <input type="checkbox" id="nav-check">
+    <label for="nav-check" class="overlay"></label>
+    <nav class="navbar">
+        <div class="navbar-header">
+            <h3>VELAN Restaurant</h3>
+            <img src="Images/velan logo.png" alt="logo">
+            <span class="nav-close ">
+                <label for="nav-check">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                    </svg>
+
+                </label>
+            </span>
+             
+        </div>
+        <ul class="nav-items">
+            <li><a href="#header" class="nav-link" >HOME</a></li>
+            <li><a href="#features" class="nav-link" >FEATURES</a></li>
+            <li><a href="#about" class="nav-link" >ABOUT</a></li>
+            <li><a href="#products" class="nav-link" >PRODUCT</a></li>
+            <li><a href="#food order card" class="nav-link" >FOOD ORDER CARD</a></li>
+            <li><a href="#services" class="nav-link" >SERVICES</a></li>
+            <li><a href="#contact" class="nav-link" >CONTACT</a></li>
+
+        </ul>
+    </nav>
+
+    <!-----------navbar end-->
+
+    <!--------------header start-->
+<header class="header" id="header">
+    <div class="banner">
+        <h2>Discover the Secret to Taste</h2>
+        <h1>Velan Restaurant</h1>
+        <a href="#" class="btn banner-btn">View More</a>
+
+    </div>
+</header>
+ <!--------------header end-->
+
+ <div class="content-divider"></div>
+ <!---------features start------------------>
+ <section class="features clearfix" id="features">
+    <div class="feature">
+        <span class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-440 474-602q-31-30-52.5-66.5T400-748q0-55 38.5-93.5T532-880q32 0 60 13.5t48 36.5q20-23 48-36.5t60-13.5q55 0 93.5 38.5T880-748q0 43-21 79.5T807-602L640-440Zm0-112 109-107q19-19 35-40.5t16-48.5q0-22-15-37t-37-15q-14 0-26.5 5.5T700-778l-60 72-60-72q-9-11-21.5-16.5T532-800q-22 0-37 15t-15 37q0 27 16 48.5t35 40.5l109 107ZM280-220l278 76 238-74q-5-9-14.5-15.5T760-240H558q-27 0-43-2t-33-8l-93-31 22-78 81 27q17 5 40 8t68 4q0-11-6.5-21T578-354l-234-86h-64v220ZM40-80v-440h304q7 0 14 1.5t13 3.5l235 87q33 12 53.5 42t20.5 66h80q50 0 85 33t35 87v40L560-60l-280-78v58H40Zm80-80h80v-280h-80v280Zm520-546Z"/>
+            </svg>
+        </span>
+        <h4 class="feature-title">MADE WITH LOVE</h4>
+        <p class="feature-text">Discover heart felt hospitality in our cozy,lovingly accomodations.</p>
+    </div>
+    <div class="feature">
+        <span class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-440 474-602q-31-30-52.5-66.5T400-748q0-55 38.5-93.5T532-880q32 0 60 13.5t48 36.5q20-23 48-36.5t60-13.5q55 0 93.5 38.5T880-748q0 43-21 79.5T807-602L640-440Zm0-112 109-107q19-19 35-40.5t16-48.5q0-22-15-37t-37-15q-14 0-26.5 5.5T700-778l-60 72-60-72q-9-11-21.5-16.5T532-800q-22 0-37 15t-15 37q0 27 16 48.5t35 40.5l109 107ZM280-220l278 76 238-74q-5-9-14.5-15.5T760-240H558q-27 0-43-2t-33-8l-93-31 22-78 81 27q17 5 40 8t68 4q0-11-6.5-21T578-354l-234-86h-64v220ZM40-80v-440h304q7 0 14 1.5t13 3.5l235 87q33 12 53.5 42t20.5 66h80q50 0 85 33t35 87v40L560-60l-280-78v58H40Zm80-80h80v-280h-80v280Zm520-546Z"/>
+            </svg>
+        </span>
+        <h4 class="feature-title">TASTE</h4>
+        <p class="feature-text"> The healing art of Ayurveda teaches us that preparing food with love, 
+            good intention and gratitude infuses the food with nourishment and transforms the meal into healing nourishment.</p>
+    </div>
+    <div class="feature">
+        <span class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M160-120v-80h640v80H160Zm160-160q-66 0-113-47t-47-113v-400h640q33 0 56.5 23.5T880-760v120q0 33-23.5 56.5T800-560h-80v120q0 66-47 113t-113 47H320Zm0-80h240q33 0 56.5-23.5T640-440v-320H240v320q0 33 23.5 56.5T320-360Zm400-280h80v-120h-80v120ZM320-360h-80 400-320Z"/>
+            </svg>
+        </span>
+        <h4 class="feature-title">ENERGY</h4>
+        <p class="feature-text">Energy-giving foods are essential and play an indispensable role in sustaining life and promoting overall health. </p>
+    </div>
+    <div class="feature">
+        <span class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M400-160h160v-44l50-20q65-26 110.5-72.5T786-400H174q20 57 65 103.5T350-224l50 20v44Zm-80 80v-70q-107-42-173.5-130T80-480h80v-320l720-80v60l-460 52v68h460v60H420v160h460q0 112-66.5 200T640-150v70H320Zm0-620h40v-62l-40 5v57Zm-100 0h40v-50l-40 4v46Zm100 220h40v-160h-40v160Zm-100 0h40v-160h-40v160Zm260 80Z"/>
+            </svg>
+        </span>
+        <h4 class="feature-title">FAMILY RECIPE</h4>
+        <p class="feature-text">Enjoy our family recipes,lovingly crafted for a taste of tradition</p>
+    </div>
+
+ </section>
+
+
+
+ <!--------------features end-------------->
+ <!--------------About start-------------->
+<section class="about" id="about">
+    <div class="section-center clearfix">
+        <div class="about-img">
+            <div class="about-picture-container">
+                <img src="Images/l-intro-1666203144.jpg"alt="about image" class="about-picture">
+            </div>
+        </div>
+        <div class="about-info">
+           <div class="section-title">
+            <h3>About Us</h3>
+            <h2>Velan Reastaurant</h2>
+           </div>
+           <p class="about-text">
+            We believe in the artistry of food. Our culinary team, led by [Head Chef’s Name], is dedicated to crafting dishes that tantalize the taste buds and celebrate the finest ingredients.
+             From farm-fresh produce to premium cuts of meat, we source only the best to ensure every bite is a culinary delight.
+           </p>
+           <p class="about-text">
+            Beyond the kitchen, we are committed to sustainability. We recognize the importance of ethical sourcing and eco-friendly practices.
+             From reducing waste to supporting local farmers, we strive to make choices that positively impact both our community and the planet.
+           </p>
+           <a href="#" class="btn">Learn more</a>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+ <!--------------about  end-------------->
+
+ <!--------------Product start-------------->
+
+<section class="products" id="products">
+    <div class="section-center clearfix">
+        <div class="product-info">
+            <div class="section-title">
+                <h3>Check Out</h3>
+                <h2>Our Recipe</h2>
+               </div>
+               <p class="product-text">
+                A vast collection of the best recipes from famous chefs in India. Browse by ingredient, cuisine, occasion, 
+                festivals, quick and easy, low calorie, we have something for everyone! We have a wide...
+                Many people even love to eat only breakfast foods like Idli, crispy dosa for their dinner as it is easier to prepare.
+                 I have included only some ...
+
+
+            </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+<div class="product-inventory clearfix">
+<div class="product">
+    <img src="Images/product 1.jpg" alt="chicken" class="product-img">
+    <h4 class="product-title">Grill Chicken
+    </h4>
+    <h4 class="product-price">$350
+    </h4>
+</div>
+<div class="product">
+    <img src="Images/pro.jpg" alt="dessert" class="product-img">
+    <h4 class="product-title">Dessert
+    </h4>
+    <h4 class="product-price">$250
+    </h4>
+</div>
+<div class="product">
+    <img src="Images/product3.jpg" alt="juice" class="product-img">
+    <h4 class="product-title">Juice
+    </h4>
+    <h4 class="product-price">$100
+    </h4>
+</div>
+
+</div>
+    </div>
+</section>
+<!--------------Product end-------------->
+
+<!--------------menus start-------->
+
+<div class = "food-wrapper center" id="food order cart">
+    <h1>food order card</h1>
+    
+    <div class = "foods">
+        <!-- single food -->
+        <div class = "food">
+            <div class = "food-img">
+                <img src = "Images/schezwan chicken fried rice.jpg" alt = "food image">
+                
+                <h3 class = "food-rate">$ 5.99</h3>
+            </div>
+
+            <div class = "food-content">
+                <h2>schezwan Chicken Fried Rice</h2>
+                
+                
+
+                <div class = "food-price-calc">
+                    <h2 class = "food-total"></h2>
+                    <div class = "food-quantity">
+                        <div class = "order-dec center">
+                            <i class = "fas fa-minus"></i>
+                        </div>
+                        <div class = "order-val center">0</div>
+                        <div class = "order-inc center">
+                            <i class = "fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of single food -->
+         <!-- single food -->
+        <div class = "food">
+            <div class = "food-img">
+                <img src = "Images/chicken-chow-mein-noodles.avif" alt = "food image">
+                
+                <h3 class = "food-rate">$ 3.99</h3>
+            </div>
+
+            <div class = "food-content">
+                <h2>Chicken Chow-Mein Noodles</h2>
+                
+                
+
+                <div class = "food-price-calc">
+                    <h2 class = "food-total"></h2>
+                    <div class = "food-quantity">
+                        <div class = "order-dec center">
+                            <i class = "fas fa-minus"></i>
+                        </div>
+                        <div class = "order-val center">0</div>
+                        <div class = "order-inc center">
+                            <i class = "fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of single food -->
+         <!-- single food -->
+        <div class = "food">
+            <div class = "food-img">
+                <img src = "Images/Vegetable-Soup-recipe-2.jpg" alt = "food image">
+                
+                <h3 class = "food-rate">$ 3.55</h3>
+            </div>
+
+            <div class = "food-content">
+                <h2>Vegetable Soup</h2>
+                
+                
+
+                <div class = "food-price-calc">
+                    <h2 class = "food-total"></h2>
+                    <div class = "food-quantity">
+                        <div class = "order-dec center">
+                            <i class = "fas fa-minus"></i>
+                        </div>
+                        <div class = "order-val center">0</div>
+                        <div class = "order-inc center">
+                            <i class = "fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of single food -->
+         <!-- single food -->
+        <div class = "food">
+            <div class = "food-img">
+                <img src = "Images/venilla icecream.jpg" alt = "food image">
+                
+                <h3 class = "food-rate">$ 3.60</h3>
+            </div>
+
+            <div class = "food-content">
+                <h2>venilla Ice-Cream</h2>
+                
+                
+
+                <div class = "food-price-calc">
+                    <h2 class = "food-total"></h2>
+                    <div class = "food-quantity">
+                        <div class = "order-dec center">
+                            <i class = "fas fa-minus"></i>
+                        </div>
+                        <div class = "order-val center">0</div>
+                        <div class = "order-inc center">
+                            <i class = "fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of single food -->
+
+
+
+
+        <!-- single food -->
+        <div class = "food">
+            <div class = "food-img">
+                <img src = "Images/Mushroom gravy recipe.JPG" alt = "food image">
+                
+                <h3 class = "food-rate">$ 4.50</h3>
+            </div>
+
+            <div class = "food-content">
+                <h2>Mushroom Gravy</h2>
+                
+                
+
+                <div class = "food-price-calc">
+                    <h2 class = "food-total"></h2>
+                    <div class = "food-quantity">
+                        <div class = "order-dec center">
+                            <i class = "fas fa-minus"></i>
+                        </div>
+                        <div class = "order-val center">0</div>
+                        <div class = "order-inc center">
+                            <i class = "fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of single food -->
+
+        <!-- single food -->
+        <div class = "food">
+            <div class = "food-img">
+                <img src = "Images/bbec42c130b6950c9ac54ebdb4de9c72.jpg" alt = "food image">
+                
+                <h3 class = "food-rate">$ 5.00</h3>
+            </div>
+
+            <div class = "food-content">
+                <h2>Chicken 65</h2>
+                
+                
+                <div class = "food-price-calc">
+                    <h2 class = "food-total"></h2>
+                    <div class = "food-quantity">
+                        <div class = "order-dec center">
+                            <i class = "fas fa-minus"></i>
+                        </div>
+                        <div class = "order-val center">0</div>
+                        <div class = "order-inc center">
+                            <i class = "fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of single food -->
+        
+         
+    </div>
+    
+    
+</div>
+
+
+<script src="script.js"></script>
+
+<!--------------menus end-->
+
+<!-------------service start-------------->
+
+<section class="services" id="services">
+<div class="section-title services-title">
+    <h3>Explore</h3>
+    <h2>Our Services</h2>
+</div>
+<div class="section-center clearfix">
+    <div class="service-card">
+        <div class="service-img-container">
+            <img src="Images/cooked-food-1860208.jpg" alt="service food1" class="service-img">
+            <span class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-360q-33 0-56.5-23.5T40-440v-360q0-33 23.5-56.5T120-880h720q33 0 56.5 23.5T920-800v360q0 33-23.5 56.5T840-360H120Zm0-440v360h720v-360H120Zm3 580-3-60 719-38 3 60-719 38Zm-3 99v-60h720v60H120Zm290-379q74 0 142.5-26T672-606q6 42 44 64t84 22v-200q-46 0-84 22.5T672-632q-53-52-120.5-80T410-740q-79 0-152 27.5T140-620q45 65 118 92.5T410-500ZM120-800v360-360Z"/>
+                </svg>
+            </span>
+        </div>
+        <div class="service-info">
+            <h4>Custom Recipe</h4>
+            <p>
+                Experience or be spoke menu,crafted with care and passion for a distinctive culinary journey
+            </p>
+            <a href="#" class="btn service-btn">Read more</a>
+        </div>
+    </div>
+    <div class="service-card">
+        <div class="service-img-container">
+            <img src="Images/service food2.jpg" alt="service food2" class="service-img">
+            <span class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/>
+                </svg>
+            </span>
+        </div>
+        <div class="service-info">
+            <h4>Home Delivery</h4>
+            <p>
+                Made with traditionally followed and loved recipes that recite the epic stories of Indian flavours, at velan Sweets,
+                 we make our delicious delights with love.
+            </p>
+            <a href="#" class="btn service-btn">Read more</a>
+        </div>
+    </div>
+    <div class="service-card">
+        <div class="service-img-container">
+            <img src="Images/service food3.jpg" alt="service food3" class="service-img">
+            <span class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-320q50 0 85 35t35 85q0 50-35 85t-85 35q-38 0-68.5-22T528-160H274l-40 62q-9 14-25.5 17.5T178-86q-14-9-17.5-25.5T166-142l158-242q-72-33-118-101.5T160-640h560q0 86-46 154.5T556-384l23 36q-21 10-34.5 20T515-300l-40-62q-8 2-17 2h-36q-9 0-17-2l-79 122h202q13-36 43.5-58t68.5-22Zm0 160q17 0 28.5-11.5T680-200q0-17-11.5-28.5T640-240q-17 0-28.5 11.5T600-200q0 17 11.5 28.5T640-160ZM440-440q60 0 109.5-33t74.5-87H256q26 54 75 87t109 33ZM336-680q5-29-1.5-49T307-775q-20-26-26.5-49.5T279-880h40q-5 29 1.5 48.5T348-786q21 26 27 49.5t1 56.5h-40Zm100 0q5-29-1-49t-27-46q-21-25-27.5-48.5T379-880h40q-5 29 1.5 48.5T448-786q20 25 26.5 48.5T476-680h-40Zm100 0q5-29-1-49t-27-46q-21-25-27.5-48.5T479-880h40q-5 29 1.5 48.5T548-786q20 25 26.5 48.5T576-680h-40Zm-96 240Z"/>
+                </svg>
+            </span>
+        </div>
+        <div class="service-info">
+            <h4>Tender Chicken</h4>
+            <p>
+                While eating at a restaurant is an enjoyable and convenient occasional treat, 
+                most individuals and families prepare their meals at home.
+            </p>
+            <a href="#" class="btn service-btn">Read more</a>
+        </div>
+    </div>
+    
+
+</div>
+</section>
+
+<!--------------service end-------------->
+<!-------------contact start-->
+
+<section class="contact" id="contact">
+<div class="secttion-center clearfix">
+    <div class="contact-info">
+        <div class="contact-item">
+            <h4 class="contact-title">
+                    <span class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M360-440h80v-110h80v110h80v-190l-120-80-120 80v190Zm120 254q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/>
+                        </svg>
+                    </span>Address
+                </h4>
+            <div class="contact-text">
+                123 Cherry Road salem<br>
+                pincode-636007
+            </div>
+        </div>
+        <div class="contact-item">
+            <h4 class="contact-title">
+                    <span class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
+                        </svg>
+                    </span>Email
+                </h4>
+            <div class="contact-text">
+                Velanrestaurant@gmal.com
+            </div>
+        </div>
+        <div class="contact-item">
+            <h4 class="contact-title">
+                    <span class="contact-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M760-480q0-117-81.5-198.5T480-760v-80q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480h-80Zm-160 0q0-50-35-85t-85-35v-80q83 0 141.5 58.5T680-480h-80Zm198 360q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/>
+                        </svg>
+                    </span>Phone no
+                </h4>
+            <div class="contact-text">
+                +91 8734236327
+            </div>
+        </div>
+    </div>
+    <div class="contact-form">
+        <h3>Contact Us</h3>
+        <form action="#">
+            <div class="form-group">
+                <input type="text"class="form-control" required />
+                <label for="" class="form-label">Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email"class="form-control" required />
+                <label for="" class="form-label">Email</label>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" required ></textarea>
+                <label for="" class="form-label">Message</label>
+            </div>
+            <button class="btn submit-btn">
+                Send Message
+            </button>
+
+        </form>
+
+
+    </div>
+</div>
+</section>
+<!-----------------contact end-->
+
+<!---------------footer start--------->
+<footer class="footer">
+    <div class="section-center">
+        <div class="social-icons">
+            <a href="#" class="social-icons">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="50px" height="50px"><path fill="#3F51B5" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"/><path fill="#FFF" d="M34.368,25H31v13h-5V25h-3v-4h3v-2.41c0.002-3.508,1.459-5.59,5.592-5.59H35v4h-2.287C31.104,17,31,17.6,31,18.723V21h4L34.368,25z"/>
+                </svg>
+            </a>
+            <a href="#" class="social-icons">
+               <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><linearGradient id="iS8U25XJCb2VBQOwbuAcra" x1="32" x2="32" y1="9.936" y2="52.195" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1a6dff"/><stop offset="1" stop-color="#c822ff"/></linearGradient><path fill="url(#iS8U25XJCb2VBQOwbuAcra)" d="M57.595,16.086c-0.286-0.341-0.762-0.45-1.17-0.271c-0.614,0.271-1.245,0.512-1.891,0.719 c0.824-1.035,1.462-2.216,1.874-3.491c0.127-0.396-0.002-0.827-0.326-1.087c-0.324-0.261-0.774-0.295-1.131-0.083 c-1.777,1.041-3.672,1.788-5.641,2.223C47.244,12.122,44.449,11,41.555,11c-6.169,0-11.189,4.978-11.189,11.097 c0,0.404,0.022,0.81,0.067,1.214c-7.41-0.705-14.289-4.343-19.027-10.103c-0.207-0.252-0.518-0.385-0.85-0.362 c-0.325,0.025-0.618,0.207-0.784,0.488c-0.993,1.679-1.519,3.613-1.519,5.593c0,2.447,0.807,4.78,2.247,6.68 c-0.292-0.123-0.579-0.26-0.859-0.412c-0.311-0.167-0.686-0.161-0.988,0.021c-0.303,0.181-0.488,0.507-0.488,0.859v0.119 c0,3.708,1.868,7.073,4.786,9.104c-0.012-0.002-0.024-0.005-0.036-0.007c-0.35-0.065-0.699,0.062-0.93,0.327 c-0.231,0.265-0.306,0.631-0.198,0.966c1.182,3.648,4.149,6.371,7.769,7.332c-3.003,1.771-6.401,2.697-9.957,2.697 c-0.786,0-1.563-0.046-2.308-0.137c-0.467-0.059-0.906,0.218-1.063,0.657c-0.157,0.44,0.012,0.931,0.407,1.181 C11.478,51.38,17.064,53,22.79,53c18.772,0,29.989-15.119,29.989-29.736c0-0.271-0.005-0.541-0.014-0.81 c1.907-1.423,3.552-3.159,4.896-5.169C57.908,16.915,57.881,16.427,57.595,16.086z M51.167,21.143 c-0.279,0.197-0.438,0.523-0.422,0.865c0.02,0.415,0.034,0.834,0.034,1.256C50.779,36.897,40.31,51,22.79,51 c-3.982,0-7.894-0.84-11.499-2.452c4.226-0.321,8.198-1.85,11.575-4.468c0.335-0.26,0.47-0.702,0.336-1.104 s-0.506-0.677-0.93-0.686c-3.381-0.065-6.404-1.952-7.948-4.835c1.115,0.038,2.203-0.099,3.276-0.393 c0.447-0.123,0.751-0.537,0.735-1c-0.017-0.464-0.35-0.854-0.804-0.945c-3.773-0.752-6.632-3.773-7.244-7.449 c1.122,0.403,2.297,0.631,3.468,0.667c0.459,0.011,0.848-0.271,0.983-0.696c0.136-0.426-0.027-0.89-0.399-1.137 c-2.558-1.698-4.084-4.53-4.084-7.575c0-1.135,0.21-2.25,0.614-3.287c5.319,5.827,12.784,9.361,20.714,9.76 c0.328,0.022,0.617-0.116,0.817-0.357c0.202-0.241,0.278-0.563,0.207-0.868c-0.16-0.685-0.24-1.384-0.24-2.077 c0-5.016,4.122-9.097,9.189-9.097c2.537,0,4.979,1.047,6.7,2.871c0.235,0.248,0.581,0.359,0.917,0.296 c1.385-0.267,2.739-0.671,4.048-1.209c-0.729,1.007-1.665,1.865-2.759,2.514c-0.407,0.242-0.589,0.735-0.436,1.184 c0.153,0.447,0.597,0.73,1.068,0.669c0.952-0.117,1.886-0.292,2.797-0.525C53.06,19.666,52.15,20.449,51.167,21.143z"/><linearGradient id="iS8U25XJCb2VBQOwbuAcrb" x1="38.903" x2="38.903" y1="9.936" y2="52.195" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1a6dff"/><stop offset="1" stop-color="#c822ff"/></linearGradient><path fill="url(#iS8U25XJCb2VBQOwbuAcrb)" d="M30.772,45.786l0.621,1.9c7.123-2.326,12.824-7.914,15.642-15.33l-1.869-0.711 C43.636,35.671,39.733,42.859,30.772,45.786z"/><g><linearGradient id="iS8U25XJCb2VBQOwbuAcrc" x1="42" x2="42" y1="17.979" y2="21.528" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6dc7ff"/><stop offset="1" stop-color="#e6abff"/></linearGradient><circle cx="42" cy="20" r="2" fill="url(#iS8U25XJCb2VBQOwbuAcrc)"/></g>
+            </svg> 
+            </a>
+            <a href="#" class="social-icons">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><radialGradient id="TGwjmZMm2W~B4yrgup6jda" cx="32" cy="32.5" r="31.259" gradientTransform="matrix(1 0 0 -1 0 64)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#efdcb1"/><stop offset="0" stop-color="#f2e0bb"/><stop offset=".011" stop-color="#f2e0bc"/><stop offset=".362" stop-color="#f9edd2"/><stop offset=".699" stop-color="#fef4df"/><stop offset="1" stop-color="#fff7e4"/></radialGradient><path fill="url(#TGwjmZMm2W~B4yrgup6jda)" d="M58,54c-1.1,0-2-0.9-2-2s0.9-2,2-2h2.5c1.9,0,3.5-1.6,3.5-3.5S62.4,43,60.5,43H50c-1.4,0-2.5-1.1-2.5-2.5	S48.6,38,50,38h8c1.7,0,3-1.3,3-3s-1.3-3-3-3H42v-6h18c2.3,0,4.2-2,4-4.4c-0.2-2.1-2.1-3.6-4.2-3.6H58c-1.1,0-2-0.9-2-2s0.9-2,2-2	h0.4c1.3,0,2.5-0.9,2.6-2.2c0.2-1.5-1-2.8-2.5-2.8h-14C43.7,9,43,8.3,43,7.5S43.7,6,44.5,6h3.9c1.3,0,2.5-0.9,2.6-2.2	C51.1,2.3,50,1,48.5,1H15.6c-1.3,0-2.5,0.9-2.6,2.2C12.9,4.7,14,6,15.5,6H19c1.1,0,2,0.9,2,2s-0.9,2-2,2H6.2c-2.1,0-4,1.5-4.2,3.6	C1.8,16,3.7,18,6,18h2.5c1.9,0,3.5,1.6,3.5,3.5S10.4,25,8.5,25H5.2c-2.1,0-4,1.5-4.2,3.6C0.8,31,2.7,33,5,33h17v11H6	c-1.7,0-3,1.3-3,3s1.3,3,3,3l0,0c1.1,0,2,0.9,2,2s-0.9,2-2,2H4.2c-2.1,0-4,1.5-4.2,3.6C-0.2,60,1.7,62,4,62h53.8	c2.1,0,4-1.5,4.2-3.6C62.2,56,60.3,54,58,54z"/><radialGradient id="TGwjmZMm2W~B4yrgup6jdb" cx="18.51" cy="66.293" r="69.648" gradientTransform="matrix(.6435 -.7654 .5056 .4251 -26.92 52.282)" gradientUnits="userSpaceOnUse"><stop offset=".073" stop-color="#eacc7b"/><stop offset=".184" stop-color="#ecaa59"/><stop offset=".307" stop-color="#ef802e"/><stop offset=".358" stop-color="#ef6d3a"/><stop offset=".46" stop-color="#f04b50"/><stop offset=".516" stop-color="#f03e58"/><stop offset=".689" stop-color="#db359e"/><stop offset=".724" stop-color="#ce37a4"/><stop offset=".789" stop-color="#ac3cb4"/><stop offset=".877" stop-color="#7544cf"/><stop offset=".98" stop-color="#2b4ff2"/></radialGradient><path fill="url(#TGwjmZMm2W~B4yrgup6jdb)" d="M45,57H19c-5.5,0-10-4.5-10-10V21c0-5.5,4.5-10,10-10h26c5.5,0,10,4.5,10,10v26C55,52.5,50.5,57,45,57z"/><path fill="#fff" d="M32,20c4.6,0,5.1,0,6.9,0.1c1.7,0.1,2.6,0.4,3.2,0.6c0.8,0.3,1.4,0.7,2,1.3c0.6,0.6,1,1.2,1.3,2 c0.2,0.6,0.5,1.5,0.6,3.2C46,28.9,46,29.4,46,34s0,5.1-0.1,6.9c-0.1,1.7-0.4,2.6-0.6,3.2c-0.3,0.8-0.7,1.4-1.3,2 c-0.6,0.6-1.2,1-2,1.3c-0.6,0.2-1.5,0.5-3.2,0.6C37.1,48,36.6,48,32,48s-5.1,0-6.9-0.1c-1.7-0.1-2.6-0.4-3.2-0.6 c-0.8-0.3-1.4-0.7-2-1.3c-0.6-0.6-1-1.2-1.3-2c-0.2-0.6-0.5-1.5-0.6-3.2C18,39.1,18,38.6,18,34s0-5.1,0.1-6.9 c0.1-1.7,0.4-2.6,0.6-3.2c0.3-0.8,0.7-1.4,1.3-2c0.6-0.6,1.2-1,2-1.3c0.6-0.2,1.5-0.5,3.2-0.6C26.9,20,27.4,20,32,20 M32,17 c-4.6,0-5.2,0-7,0.1c-1.8,0.1-3,0.4-4.1,0.8c-1.1,0.4-2.1,1-3,2s-1.5,1.9-2,3c-0.4,1.1-0.7,2.3-0.8,4.1C15,28.8,15,29.4,15,34 s0,5.2,0.1,7c0.1,1.8,0.4,3,0.8,4.1c0.4,1.1,1,2.1,2,3c0.9,0.9,1.9,1.5,3,2c1.1,0.4,2.3,0.7,4.1,0.8c1.8,0.1,2.4,0.1,7,0.1 s5.2,0,7-0.1c1.8-0.1,3-0.4,4.1-0.8c1.1-0.4,2.1-1,3-2c0.9-0.9,1.5-1.9,2-3c0.4-1.1,0.7-2.3,0.8-4.1c0.1-1.8,0.1-2.4,0.1-7 s0-5.2-0.1-7c-0.1-1.8-0.4-3-0.8-4.1c-0.4-1.1-1-2.1-2-3s-1.9-1.5-3-2c-1.1-0.4-2.3-0.7-4.1-0.8C37.2,17,36.6,17,32,17L32,17z"/><path fill="#fff" d="M32,25c-5,0-9,4-9,9s4,9,9,9s9-4,9-9S37,25,32,25z M32,40c-3.3,0-6-2.7-6-6s2.7-6,6-6s6,2.7,6,6S35.3,40,32,40 z"/><circle cx="41" cy="25" r="2" fill="#fff"/>
+                </svg>
+            </a>
+        </div>
+        <h4 class="footer-text">&copy;2024
+            <span class="company">Velan Restaurant</span> all rights reserved
+        </h4>
+    </div>
+</footer>
+
+ 
+<!---------------footer end--------->
+
+</body>
+</html>
